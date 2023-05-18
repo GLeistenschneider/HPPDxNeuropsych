@@ -210,7 +210,7 @@ df_prep
 
 ##integration into daily life
 
-integr_test <- t.test(demo[demo$case == 1, "a.2.08_avg_dose_psy"], demo[demo$case == 0, "a.2.08_avg_dose_psy"], alternative = "two.sided")
+integr_test <- t.test(demo[demo$case == 1, "a.2.13_integr_psy"], demo[demo$case == 0, "a.2.13_integr_psy"], alternative = "two.sided")
 integr_test
 
 ##subj. assumptions
